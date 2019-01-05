@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Tokyo",
+    "value": "37.5"
+  },
+  {
+    "name": "Delhi",
+    "value": "28.5"
+  },
+  {
+    "name": "Shanghai",
+    "value": "25.5"
+  },
+  {
+    "name": "Sao Paulo",
+    "value": "21.6"
+  },
+  {
+    "name": "Mexico City",
+    "value": "21.5"
+  },
+  {
+    "name": "Cairo",
+    "value": "20"
+  },
+  {
+    "name": "Mumbai",
+    "value": "19.9"
+  },
+  {
+    "name": "Beijing",
+    "value": "19.6"
+  },
+  {
+    "name": "Dhaka",
+    "value": "19.6"
+  },
+  {
+    "name": "Osaka",
+    "value": "19.3"
+  }
+]
