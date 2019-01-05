@@ -9,7 +9,7 @@ const circles = svg.selectAll("circle")
 
 circles.enter()
   .append("circle")
-    .attr("cx", (d, i) => ((i*50) + 25 ))
+    .attr("cx", (d, i) => ((i*50) + 25 )) // every item/data from the data source, and index.
     .attr("cy", (d, i) => d+100 )
     .attr("r", (d, i) => d)
     .attr("fill", "red");

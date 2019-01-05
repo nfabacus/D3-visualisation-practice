@@ -1,11 +1,12 @@
 const data = [25, 20, 10, 12, 15];
 
+const svg = d3.select("#chart-area").append("svg")
+  .attr("width", 800)
+  .attr("height", 800);
+
 d3.json("data/buildings.json").then(data => {
   data.forEach(d => d.height = +d.height); // Converting age values to integers
   console.log(data);
-  const svg = d3.select("#chart-area").append("svg")
-    .attr("width", 800)
-    .attr("height", 800);
 
   const rectangles = svg.selectAll("rect")
     .data(data);
